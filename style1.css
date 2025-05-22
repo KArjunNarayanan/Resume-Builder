@@ -1,0 +1,90 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #5c6bc0;
+  outline: none;
+}
+
+button {
+  background: #5c6bc0;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #3f51b5;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.resume-preview {
+  background: #fff;
+  padding: 25px;
+  border: 2px dashed #5c6bc0;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.resume-preview h2 {
+  color: #3f51b5;
+}
+
+.progress-container {
+  width: 100%;
+  background: #ddd;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
+  height: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #3f51b5;
+  width: 0%;
+  transition: width 0.4s ease-in-out;
+}
